@@ -145,29 +145,6 @@ pipeline = MangaTranslationPipeline(
     vertical_font_path="path/to/vertical_font.ttf"
 )
 ```
-
-## Examples
-
-### Original Manga Page
-![Original Manga Page](examples/original.jpg)
-
-### Placeholder Mode (for template creation)
-![Placeholder Mode](examples/placeholder.jpg)
-
-### Translated Page
-![Translated Page](examples/translated.jpg)
-
-## Troubleshooting
-
-- **OCR Quality Issues**: Try using Azure Computer Vision for better accuracy
-- **Text Fitting Problems**: Use shorter translations or adjust font size
-- **Vertical Text Detection**: Manually specify vertical text in translations
-- **Missing Speech Bubbles**: Adjust bubble detection parameters or use manual mode
-
-## License
-
-MIT License
-
 ## Acknowledgments
 
 - Uses Azure Computer Vision or manga-ocr for text detection
