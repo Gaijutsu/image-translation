@@ -1,0 +1,24 @@
+# Core requirements
+Pillow>=9.0.0
+numpy>=1.20.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+python-dotenv>=0.21.0
+
+# Azure Computer Vision (optional but recommended)
+azure-cognitiveservices-vision-computervision>=0.9.0
+msrest>=0.7.1
+
+# YOLO for speech bubble detection
+ultralytics>=8.0.0
+
+# Translation APIs
+deepl>=1.15.0
+
+# Optional: Tesseract OCR (fallback if Azure not available)
+pytesseract>=0.3.8
+
+# API Server
+Flask>=2.0.0
+Flask-CORS>=3.0.0
+gunicorn>=20.1.0
